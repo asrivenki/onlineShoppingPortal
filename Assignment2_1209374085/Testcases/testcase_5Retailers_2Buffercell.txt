@@ -1,0 +1,61 @@
+
+           No.1 New Price-cut Availble 165, 14.9813 Off From the Previous Price 180
+
+Order : 1, Retialer : 1, unitprice of Chicken: 165, Weight of Chicken: 109, Amount of Charge: 31043, Start Time: 05-06-2016 12:29:57, Completed Time: 05-06-2016 12:29:59, Time taken to process the order: 00:00:02.4364340
+
+Order : 1, Retialer : 2, unitprice of Chicken: 165, Weight of Chicken: 109, Amount of Charge: 31043, Start Time: 05-06-2016 12:29:57, Completed Time: 05-06-2016 12:29:59, Time taken to process the order: 00:00:02.4994771
+
+Order : 1, Retialer : 4, unitprice of Chicken: 165, Weight of Chicken: 109, Amount of Charge: 31043, Start Time: 05-06-2016 12:29:57, Completed Time: 05-06-2016 12:29:59, Time taken to process the order: 00:00:02.5675265
+
+Order : 1, Retialer : 3, unitprice of Chicken: 165, Weight of Chicken: 109, Amount of Charge: 31043, Start Time: 05-06-2016 12:29:57, Completed Time: 05-06-2016 12:29:59, Time taken to process the order: 00:00:02.6305708
+
+Order : 1, Retialer : 5, unitprice of Chicken: 165, Weight of Chicken: 109, Amount of Charge: 31043, Start Time: 05-06-2016 12:29:57, Completed Time: 05-06-2016 12:29:59, Time taken to process the order: 00:00:02.6956165
+
+           No.2 New Price-cut Availble 143, 21.5727 Off From the Previous Price 165
+
+Order : 2, Retialer : 4, unitprice of Chicken: 143, Weight of Chicken: 115, Amount of Charge: 28471, Start Time: 05-06-2016 12:30:00, Completed Time: 05-06-2016 12:30:00, Time taken to process the order: 00:00:00.9667511
+
+Order : 2, Retialer : 1, unitprice of Chicken: 143, Weight of Chicken: 115, Amount of Charge: 28471, Start Time: 05-06-2016 12:30:00, Completed Time: 05-06-2016 12:30:01, Time taken to process the order: 00:00:01.0287947
+
+Order : 2, Retialer : 3, unitprice of Chicken: 143, Weight of Chicken: 115, Amount of Charge: 28471, Start Time: 05-06-2016 12:30:00, Completed Time: 05-06-2016 12:30:01, Time taken to process the order: 00:00:01.0938443
+
+Order : 2, Retialer : 5, unitprice of Chicken: 143, Weight of Chicken: 115, Amount of Charge: 28471, Start Time: 05-06-2016 12:30:00, Completed Time: 05-06-2016 12:30:01, Time taken to process the order: 00:00:01.1588997
+
+Order : 2, Retialer : 2, unitprice of Chicken: 143, Weight of Chicken: 115, Amount of Charge: 28471, Start Time: 05-06-2016 12:30:00, Completed Time: 05-06-2016 12:30:01, Time taken to process the order: 00:00:01.2209427
+
+           No.3 New Price-cut Availble 191, 5.7262 Off From the Previous Price 197
+
+Order : 3, Retialer : 3, unitprice of Chicken: 191, Weight of Chicken: 102, Amount of Charge: 33630, Start Time: 05-06-2016 12:30:04, Completed Time: 05-06-2016 12:30:04, Time taken to process the order: 00:00:00.4176266
+
+Order : 3, Retialer : 5, unitprice of Chicken: 191, Weight of Chicken: 102, Amount of Charge: 33630, Start Time: 05-06-2016 12:30:04, Completed Time: 05-06-2016 12:30:04, Time taken to process the order: 00:00:00.4901746
+
+Order : 3, Retialer : 4, unitprice of Chicken: 191, Weight of Chicken: 102, Amount of Charge: 33630, Start Time: 05-06-2016 12:30:04, Completed Time: 05-06-2016 12:30:04, Time taken to process the order: 00:00:00.5522171
+
+Order : 3, Retialer : 1, unitprice of Chicken: 191, Weight of Chicken: 102, Amount of Charge: 33630, Start Time: 05-06-2016 12:30:04, Completed Time: 05-06-2016 12:30:04, Time taken to process the order: 00:00:00.6157587
+
+Order : 3, Retialer : 2, unitprice of Chicken: 191, Weight of Chicken: 102, Amount of Charge: 33630, Start Time: 05-06-2016 12:30:04, Completed Time: 05-06-2016 12:30:04, Time taken to process the order: 00:00:00.6773005
+
+           No.4 New Price-cut Availble 156, 34.8141 Off From the Previous Price 191
+
+Order : 4, Retialer : 4, unitprice of Chicken: 156, Weight of Chicken: 122, Amount of Charge: 32895, Start Time: 05-06-2016 12:30:05, Completed Time: 05-06-2016 12:30:05, Time taken to process the order: 00:00:00.8633608
+
+Order : 4, Retialer : 3, unitprice of Chicken: 156, Weight of Chicken: 122, Amount of Charge: 32895, Start Time: 05-06-2016 12:30:05, Completed Time: 05-06-2016 12:30:05, Time taken to process the order: 00:00:00.9254124
+
+Order : 4, Retialer : 5, unitprice of Chicken: 156, Weight of Chicken: 122, Amount of Charge: 32895, Start Time: 05-06-2016 12:30:05, Completed Time: 05-06-2016 12:30:05, Time taken to process the order: 00:00:00.9874549
+
+Order : 4, Retialer : 1, unitprice of Chicken: 156, Weight of Chicken: 122, Amount of Charge: 32895, Start Time: 05-06-2016 12:30:05, Completed Time: 05-06-2016 12:30:06, Time taken to process the order: 00:00:01.0485007
+
+Order : 4, Retialer : 2, unitprice of Chicken: 156, Weight of Chicken: 122, Amount of Charge: 32895, Start Time: 05-06-2016 12:30:05, Completed Time: 05-06-2016 12:30:06, Time taken to process the order: 00:00:01.1105483
+
+           No.5 New Price-cut Availble 188, 33.7057 Off From the Previous Price 222
+
+Order : 5, Retialer : 5, unitprice of Chicken: 188, Weight of Chicken: 117, Amount of Charge: 37985, Start Time: 05-06-2016 12:30:11, Completed Time: 05-06-2016 12:30:11, Time taken to process the order: 00:00:00.3669615
+
+Order : 5, Retialer : 4, unitprice of Chicken: 188, Weight of Chicken: 117, Amount of Charge: 37985, Start Time: 05-06-2016 12:30:11, Completed Time: 05-06-2016 12:30:11, Time taken to process the order: 00:00:00.4290108
+
+Order : 5, Retialer : 2, unitprice of Chicken: 188, Weight of Chicken: 117, Amount of Charge: 37985, Start Time: 05-06-2016 12:30:11, Completed Time: 05-06-2016 12:30:11, Time taken to process the order: 00:00:00.4980563
+
+Order : 5, Retialer : 3, unitprice of Chicken: 188, Weight of Chicken: 117, Amount of Charge: 37985, Start Time: 05-06-2016 12:30:11, Completed Time: 05-06-2016 12:30:11, Time taken to process the order: 00:00:00.5591009
+
+Order : 5, Retialer : 1, unitprice of Chicken: 188, Weight of Chicken: 117, Amount of Charge: 37985, Start Time: 05-06-2016 12:30:11, Completed Time: 05-06-2016 12:30:11, Time taken to process the order: 00:00:00.6231448
+          Total Time Used by current ChickenSupplier Thread: 00:00:15.9023115.
