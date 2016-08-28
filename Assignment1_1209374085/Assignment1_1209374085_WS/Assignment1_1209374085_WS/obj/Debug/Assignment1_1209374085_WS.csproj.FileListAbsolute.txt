@@ -1,0 +1,5 @@
+c:\users\srivenkatasubramaniy\documents\visual studio 2012\Projects\Assignment1_1209374085_WS\Assignment1_1209374085_WS\bin\Assignment1_1209374085_WS.dll
+c:\users\srivenkatasubramaniy\documents\visual studio 2012\Projects\Assignment1_1209374085_WS\Assignment1_1209374085_WS\bin\Assignment1_1209374085_WS.pdb
+c:\users\srivenkatasubramaniy\documents\visual studio 2012\Projects\Assignment1_1209374085_WS\Assignment1_1209374085_WS\obj\Debug\Assignment1_1209374085_WS.csprojResolveAssemblyReference.cache
+c:\users\srivenkatasubramaniy\documents\visual studio 2012\Projects\Assignment1_1209374085_WS\Assignment1_1209374085_WS\obj\Debug\Assignment1_1209374085_WS.dll
+c:\users\srivenkatasubramaniy\documents\visual studio 2012\Projects\Assignment1_1209374085_WS\Assignment1_1209374085_WS\obj\Debug\Assignment1_1209374085_WS.pdb
