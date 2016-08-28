@@ -1,0 +1,2 @@
+Nexus5,20
+Iphone6,8

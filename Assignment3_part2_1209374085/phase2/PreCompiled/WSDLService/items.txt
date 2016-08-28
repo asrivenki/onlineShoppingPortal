@@ -1,0 +1,10 @@
+Iphone5,12
+Nexus5,10
+Nexus6,10
+Iphone6,20
+OnePlusOne,78
+NokiaLumia,12
+NokiaXL,12
+Iphone6s,14
+SamsungS6,45
+SamsungS7,67

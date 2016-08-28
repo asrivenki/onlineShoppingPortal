@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="validate_login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="validate_loginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="validate_loginResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="itemdisplay">
+        <s:complexType />
+      </s:element>
+      <s:element name="itemdisplayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="itemdisplayResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="encrypt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="encryptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="encryptResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="decrypt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="decrypt" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="decryptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="decryptResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addtoCart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="item" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="quantity" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addtoCartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addtoCartResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retrieveCart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retrieveCartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="retrieveCartResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registerUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registerUserResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="validate_loginSoapIn">
+    <wsdl:part name="parameters" element="tns:validate_login" />
+  </wsdl:message>
+  <wsdl:message name="validate_loginSoapOut">
+    <wsdl:part name="parameters" element="tns:validate_loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="itemdisplaySoapIn">
+    <wsdl:part name="parameters" element="tns:itemdisplay" />
+  </wsdl:message>
+  <wsdl:message name="itemdisplaySoapOut">
+    <wsdl:part name="parameters" element="tns:itemdisplayResponse" />
+  </wsdl:message>
+  <wsdl:message name="encryptSoapIn">
+    <wsdl:part name="parameters" element="tns:encrypt" />
+  </wsdl:message>
+  <wsdl:message name="encryptSoapOut">
+    <wsdl:part name="parameters" element="tns:encryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="decryptSoapIn">
+    <wsdl:part name="parameters" element="tns:decrypt" />
+  </wsdl:message>
+  <wsdl:message name="decryptSoapOut">
+    <wsdl:part name="parameters" element="tns:decryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="addtoCartSoapIn">
+    <wsdl:part name="parameters" element="tns:addtoCart" />
+  </wsdl:message>
+  <wsdl:message name="addtoCartSoapOut">
+    <wsdl:part name="parameters" element="tns:addtoCartResponse" />
+  </wsdl:message>
+  <wsdl:message name="retrieveCartSoapIn">
+    <wsdl:part name="parameters" element="tns:retrieveCart" />
+  </wsdl:message>
+  <wsdl:message name="retrieveCartSoapOut">
+    <wsdl:part name="parameters" element="tns:retrieveCartResponse" />
+  </wsdl:message>
+  <wsdl:message name="registerUserSoapIn">
+    <wsdl:part name="parameters" element="tns:registerUser" />
+  </wsdl:message>
+  <wsdl:message name="registerUserSoapOut">
+    <wsdl:part name="parameters" element="tns:registerUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebserviceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="validate_login">
+      <wsdl:input message="tns:validate_loginSoapIn" />
+      <wsdl:output message="tns:validate_loginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="itemdisplay">
+      <wsdl:input message="tns:itemdisplaySoapIn" />
+      <wsdl:output message="tns:itemdisplaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="encrypt">
+      <wsdl:input message="tns:encryptSoapIn" />
+      <wsdl:output message="tns:encryptSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <wsdl:input message="tns:decryptSoapIn" />
+      <wsdl:output message="tns:decryptSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addtoCart">
+      <wsdl:input message="tns:addtoCartSoapIn" />
+      <wsdl:output message="tns:addtoCartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retrieveCart">
+      <wsdl:input message="tns:retrieveCartSoapIn" />
+      <wsdl:output message="tns:retrieveCartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="registerUser">
+      <wsdl:input message="tns:registerUserSoapIn" />
+      <wsdl:output message="tns:registerUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebserviceSoap" type="tns:WebserviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validate_login">
+      <soap:operation soapAction="http://tempuri.org/validate_login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itemdisplay">
+      <soap:operation soapAction="http://tempuri.org/itemdisplay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="encrypt">
+      <soap:operation soapAction="http://tempuri.org/encrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <soap:operation soapAction="http://tempuri.org/decrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addtoCart">
+      <soap:operation soapAction="http://tempuri.org/addtoCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retrieveCart">
+      <soap:operation soapAction="http://tempuri.org/retrieveCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerUser">
+      <soap:operation soapAction="http://tempuri.org/registerUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebserviceSoap12" type="tns:WebserviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validate_login">
+      <soap12:operation soapAction="http://tempuri.org/validate_login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itemdisplay">
+      <soap12:operation soapAction="http://tempuri.org/itemdisplay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="encrypt">
+      <soap12:operation soapAction="http://tempuri.org/encrypt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <soap12:operation soapAction="http://tempuri.org/decrypt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addtoCart">
+      <soap12:operation soapAction="http://tempuri.org/addtoCart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retrieveCart">
+      <soap12:operation soapAction="http://tempuri.org/retrieveCart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerUser">
+      <soap12:operation soapAction="http://tempuri.org/registerUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Webservice">
+    <wsdl:port name="WebserviceSoap" binding="tns:WebserviceSoap">
+      <soap:address location="http://webstrar5.fulton.asu.edu/page0/Webservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebserviceSoap12" binding="tns:WebserviceSoap12">
+      <soap12:address location="http://webstrar5.fulton.asu.edu/page0/Webservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

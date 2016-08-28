@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Assign3Part2WebApp.dll">
+      <publishTime>06/18/2016 19:25:35</publishTime>
+    </File>
+    <File Include="new_user.aspx">
+      <publishTime>06/14/2016 23:05:39</publishTime>
+    </File>
+    <File Include="Product.aspx">
+      <publishTime>06/18/2016 19:21:08</publishTime>
+    </File>
+    <File Include="Service References/itemDisplay/Assign3Part2WebApp.itemDisplay.CompositeType.datasource">
+      <publishTime>06/13/2016 17:11:54</publishTime>
+    </File>
+    <File Include="Service References/itemDisplay/configuration.svcinfo">
+      <publishTime>06/13/2016 17:11:52</publishTime>
+    </File>
+    <File Include="Service References/itemDisplay/configuration91.svcinfo">
+      <publishTime>06/13/2016 17:11:52</publishTime>
+    </File>
+    <File Include="Service References/itemDisplay/Reference.svcmap">
+      <publishTime>06/13/2016 17:11:52</publishTime>
+    </File>
+    <File Include="Service References/itemDisplay/Service.disco">
+      <publishTime>06/13/2016 17:11:52</publishTime>
+    </File>
+    <File Include="Service References/itemDisplay/Service.wsdl">
+      <publishTime>06/13/2016 17:11:52</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.addtoCartResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.ArrayOfString.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.decryptResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.encryptResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.HelloWorldResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.itemdisplayResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.registerUserResponse1.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.retrieveCartResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Assign3Part2WebApp.service.validate_loginResponse.datasource">
+      <publishTime>06/18/2016 19:10:32</publishTime>
+    </File>
+    <File Include="Service References/service/Webservice.disco">
+      <publishTime>06/18/2016 19:10:31</publishTime>
+    </File>
+    <File Include="Service References/service/Webservice.wsdl">
+      <publishTime>06/18/2016 19:10:31</publishTime>
+    </File>
+    <File Include="user_info.aspx">
+      <publishTime>06/14/2016 11:48:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/18/2016 19:25:36</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>06/14/2016 22:53:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

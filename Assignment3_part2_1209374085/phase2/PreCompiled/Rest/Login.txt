@@ -1,0 +1,4 @@
+username,password,name,phone,email
+user1,password,User1,9098989899,amk@gmail.com
+user2,password,User2,9098989899,amk@gmail.com
+user3,password,User3,9098989899,amk@gmail.com
