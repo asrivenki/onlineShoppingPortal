@@ -1,0 +1,287 @@
+<?xml-stylesheet type="text/xsl" href="Persons.xsl"?>
+<Persons>
+<Person>
+<Name>
+	<First>Venki</First>
+	<Last>Sri</Last>
+</Name>
+	<Credential>
+		<ID>Venki</ID>
+		<Password>Sri</Password>
+	</Credential>
+	<Phone>
+	<Work>8878</Work>
+	<Cell>878787878</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Barrack</First>
+	<Last>Obama</Last>
+</Name>
+	<Credential>
+		<ID>Barrack</ID>
+		<Password>Obama</Password>
+	</Credential>
+	<Phone>
+	<Work>98989898</Work>
+	<Cell>77665545</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Vicky</First>
+	<Last>Shiva</Last>
+</Name>
+	<Credential>
+		<ID>Vicky</ID>
+		<Password>Shiva</Password>
+	</Credential>
+	<Phone>
+	<Work>878787888</Work>
+	<Cell>8776655566</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Kim</First>
+	<Last>Kardashian</Last>
+</Name>
+	<Credential>
+		<ID>Kim</ID>
+		<Password>Kardashian</Password>
+	</Credential>
+	<Phone>
+	<Work>5443478989</Work>
+	<Cell>8776767676</Cell>
+	</Phone>
+	<Category>Friend</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Michael</First>
+	<Last>Jackson</Last>
+</Name>
+	<Credential>
+		<ID>MJ</ID>
+		<Password>mj</Password>
+	</Credential>
+	<Phone>
+	<Work>9887676767</Work>
+	<Cell>6766565656</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+<Person>
+<Name>
+	<First>Venkiji</First>
+	<Last>Boss</Last>
+</Name>
+	<Credential>
+		<ID>Venkiji</ID>
+		<Password>ssssss</Password>
+	</Credential>
+	<Phone>
+	<Work>7418945300</Work>
+	<Cell>4806779420</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Lui</First>
+	<Last>sss</Last>
+</Name>
+	<Credential>
+		<ID>Lui</ID>
+		<Password>kshu</Password>
+	</Credential>
+	<Phone>
+	<Work>6544445556</Work>
+	<Cell>9876656565</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Robert</First>
+	<Last>Baratiyan</Last>
+</Name>
+	<Credential>
+		<ID>jsjj</ID>
+		<Password>jjhj</Password>
+	</Credential>
+	<Phone>
+	<Work>8776676989</Work>
+	<Cell>6565556567</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Mary</First>
+	<Last>Kom</Last>
+</Name>
+	<Credential>
+		<ID>Maty</ID>
+		<Password>Kom</Password>
+	</Credential>
+	<Phone>
+	<Work>4545455666</Work>
+	<Cell>7676767677</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Priya</First>
+	<Last>Mani</Last>
+</Name>
+	<Credential>
+		<ID>Priya</ID>
+		<Password>Mani</Password>
+	</Credential>
+	<Phone>
+	<Work>7676767676</Work>
+	<Cell>7676666666</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+<Person>
+<Name>
+	<First>Sameera</First>
+	<Last>Reddy</Last>
+</Name>
+	<Credential>
+		<ID>sameera</ID>
+		<Password>rreddy</Password>
+	</Credential>
+	<Phone>
+	<Work>8765455556</Work>
+	<Cell>2345656676</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Jhonny</First>
+	<Last>Walker</Last>
+</Name>
+	<Credential>
+		<ID>john</ID>
+		<Password>walk</Password>
+	</Credential>
+	<Phone>
+	<Work>5545454545</Work>
+	<Cell>9887878888</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Mallika</First>
+	<Last>Arora</Last>
+</Name>
+	<Credential>
+		<ID>Mallika</ID>
+		<Password>khan</Password>
+	</Credential>
+	<Phone>
+	<Work>8787777776</Work>
+	<Cell>7676767676</Cell>
+	</Phone>Friends</Person>
+
+<Person>
+<Name>
+	<First>Lazar</First>
+	<Last>Goslov</Last>
+</Name>
+	<Credential>
+		<ID>lazar</ID>
+		<Password>gasglow</Password>
+	</Credential>
+	<Phone>
+	<Work>9898989898</Work>
+	<Cell>7676776776</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Mercy</First>
+	<Last>Polson</Last>
+</Name>
+	<Credential>
+		<ID>mpolson</ID>
+		<Password>jhjhjhj</Password>
+	</Credential>
+	<Phone>
+	<Work>8787878789</Work>
+	<Cell>8787878787</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+<Person>
+   <Name>
+      <First>Jack</First>
+      <Last>Daniels</Last>
+   </Name>
+   <Credential>
+      <ID>jackie</ID>
+      <Password>danielii=</Password>
+   </Credential>
+   <Phone>
+      <Work>8787878787</Work>
+      <Cell>7656687878</Cell>
+   </Phone>
+   <Category>Friends</Category>
+</Person>
+<Person>
+   <Name>
+      <First>Chivas</First>
+      <Last>Regal</Last>
+   </Name>
+   <Credential>
+      <ID>chiva</ID>
+      <Password>jhuhujhjj=</Password>
+   </Credential>
+   <Phone>
+      <Work>7676767676</Work>
+      <Cell>9887878787</Cell>
+   </Phone>
+   <Category>Friend</Category>
+</Person>
+
+
+<Person>
+   <Name>
+      <First>Corona</First>
+      <Last>Coker</Last>
+   </Name>
+   <Credential>
+      <ID>corono</ID>
+      <Password>kjjhhjhj==</Password>
+   </Credential>
+   <Phone>
+      <Work>8787878787</Work>
+      <Cell>8787878788</Cell>
+   </Phone>
+   <Category>Family</Category>
+</Person>
+</Persons>
+
+

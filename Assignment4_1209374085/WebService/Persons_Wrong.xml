@@ -1,0 +1,290 @@
+<?xml-stylesheet type="text/xsl" href="Persons.xsl"?>
+<Persons>
+<Person>
+	<Name>
+		<First>Sri</First>
+		<Last>Venki</Last>
+	</Name>
+	<Credential>
+		<Id>Manikandan</Id>
+		<Password Encryption= "yes">manikandan</Password>
+	</Credential>
+	<Phone>
+		<Work>7418945300</Work>
+		<Cell>4806779420</Cell>
+	</Phone>
+	
+</Person>
+
+<Person>
+	<Name>
+		<First>John</First>
+		<Last>Kennedy</Last>
+	</Name>
+	<Credential>
+		<Id>JKennedy</Id>
+		<Password>jkennedy</Password>
+	</Credential>
+	<Phone>
+		<Work>1234567890</Work>
+		<Cell>2485014785</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Lana</First>
+		<Last>Gluck</Last>
+	</Name>
+	<Credential>
+		<Id>LGluck</Id>
+		<Password>lgluck</Password>
+	</Credential>
+	<Phone>
+		<Work>8542369872</Work>
+		<Cell>1475296325</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Jay</First>
+		<Last>Thompson</Last>
+	</Name>
+	<Credential>
+		<Id>JaThomps</Id>
+		<Password>jathomps</Password>
+	</Credential>
+	<Phone>
+	<Work>8475266987</Work>
+	<Cell>9894640547</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Mary</First>
+		<Last>Jackson</Last>
+	</Name>
+	<Credential>
+		<Id>MJack</Id>
+		<Password>mjack</Password>
+	</Credential>
+	<Phone>
+	<Work>1455266987</Work>
+	<Cell>5874123698</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+<Person>
+	<Name>
+		<First>Praveen</First>
+		<Last>Anandan</Last>
+	</Name>
+	<Credential>
+		<Id>PAnandan</Id>
+		<Password>panandan</Password>
+	</Credential>
+	<Phone>
+	<Work>7418945300</Work>
+	<Cell>4806779420</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Kai</First>
+		<Last>Shu</Last>
+	</Name>
+	<Credential>
+		<Id>Kshu</Id>
+		<Password>kshu</Password>
+	</Credential>
+	<Phone>
+	<Work>1234567890</Work>
+	<Cell>2485014785</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Robert</First>
+		<Last>Gluck</Last>
+	</Name>
+	<Credential>
+		<Id>RGluck</Id>
+		<Password>rgluck</Password>
+	</Credential>
+	<Phone>
+	<Work>8542369872</Work>
+	<Cell>1475296325</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Peter</First>
+		<Last>Thompson</Last>
+	</Name>
+	<Credential>
+		<Id>PeThomps</Id>
+		<Password>pethomps</Password>
+	</Credential>
+	<Phone>
+	<Work>8475266987</Work>
+	<Cell>9894640547</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Inna</First>
+		<Last>Levaine</Last>
+	</Name>
+	<Credential>
+		<Id>ILevaine</Id>
+		<Password>ilevaine</Password>
+	</Credential>
+	<Phone>
+	<Work>1455266987</Work>
+	<Cell>5874123698</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+	<Name>
+		<First>Rajeev</First>
+		<Last>Reddy</Last>
+	</Name>
+	<Credential>
+		<Id>RReddy</Id>
+		<Password>rreddy</Password>
+	</Credential>
+	<Phone>
+	<Work>7418945300</Work>
+	<Cell>4806779420</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Krish</First>
+	<Last>Rao</Last>
+</Name>
+	<Credential>
+		<Id>Krao</Id>
+		<Password>krao</Password>
+	</Credential>
+	<Phone>
+	<Work>1234567890</Work>
+	<Cell>2485014785</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Asif</First>
+	<Last>Khan</Last>
+</Name>
+	<Credential>
+		<Id>Akhan</Id>
+		<Password>akhan</Password>
+	</Credential>
+	<Phone>
+	<Work>8542369872</Work>
+	<Cell>1475296325</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Roger</First>
+	<Last>Thompson</Last>
+</Name>
+	<Credential>
+		<Id>RoThomps</Id>
+		<Password>rothomps</Password>
+	</Credential>
+	<Phone>
+	<Work>8475266987</Work>
+	<Cell>9894640547</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Gladwin</First>
+	<Last>Levaine</Last>
+</Name>
+	<Credential>
+		<Id>GLevaine</Id>
+		<Password>glevaine</Password>
+	</Credential>
+	<Phone>
+	<Work>1455266987</Work>
+	<Cell>5874123698</Cell>
+	</Phone>
+	<Category>Friends</Category>
+</Person>
+<Person>
+   <Name>
+      <First>Charlie</First>
+      <Last>Austin</Last>
+   </Name>
+   <Credential>
+      <Id>CAustin</Id>
+      <Password>WOyaZIPCT2I=</Password>
+   </Credential>
+   <Phone>
+      <Work>1216513142</Work>
+      <Cell>2584254632</Cell>
+   </Phone>
+   <Category>Friends</Category>
+</Person>
+<Person>
+   <Name>
+      <First>Yinong</First>
+      <Last>Chen</Last>
+   </Name>
+   <Credential>
+      <Id>YChen</Id>
+      <Password>ith7bh1oWz8=</Password>
+   </Credential>
+   <Phone>
+      <Work>4584854582</Work>
+      <Cell>6985874524</Cell>
+   </Phone>
+   <Category>Work</Category>
+</Person>
+
+
+<Person>
+   <Name>
+      <First>Parthiban</First>
+      <Last>Sivakumar</Last>
+   </Name>
+   <Credential>
+      <Id>Psivakumar</Id>
+      <Password>sxXpp3h0tLzpTSZl80FnoA==</Password>
+   </Credential>
+   <Phone>
+      <Work>78542584526</Work>
+      <Cell>4752548562</Cell>
+   </Phone>
+   <Category>Friends</Category>
+</Person>
+</Persons>
+
+

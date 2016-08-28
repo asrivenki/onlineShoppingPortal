@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<Courses>
+	<Course>
+		<Name>Introduction to Programming Languages</Name> 
+		<Code>CSE240</Code> 
+		<Level>Sophomore</Level>
+		<Room>BYAC110</Room> 
+		<Cap>82</Cap>
+	</Course>
+	<Course>
+		<Name>Distributed Software Development</Name> 
+		<Code>CSE445</Code> 	
+		<Level>Senior</Level> 
+		<Room>BYAC210</Room> 
+		<Cap>40</Cap>
+	</Course>
+</Courses>
